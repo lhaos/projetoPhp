@@ -4,7 +4,7 @@ include_once '/template/inc/head.php';
 ?>
     <div class="jumbotron">
         <h1>Contato</h1>
-        <form name="cad" id="cad" method="post" action="../template/contato-controle.php">
+        <form name="cad" id="cad" method="post" action="/index.php?file=resposta">
             <input type="text" name="txtnome" id="txtnome" placeholder="Nome" class="q" required autofocus />
             <input type="email" name="txtemail" id="txtemail"  placeholder="Email" class="q" required />
             <input type="text" name="txtassunto" id="txtassunto"  placeholder="Assunto" class="q" required />
