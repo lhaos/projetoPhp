@@ -39,11 +39,11 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li <?php if($file == 'home') echo 'class="active"'; ?> ><a href="/">Home</a></li>
-                <li <?php if($file == 'empresa') echo 'class="active"'; ?> ><a href="/index.php?file=empresa">Empresa</a></li>
-                <li <?php if($file == 'produtos') echo 'class="active"'; ?> ><a href="/index.php?file=produtos">Produtos</a></li>
-                <li <?php if($file == 'servicos') echo 'class="active"'; ?> ><a href="/index.php?file=servicos">Serviços</a></li>
-                <li <?php if($file == 'contatos') echo 'class="active"'; ?> ><a href="/index.php?file=contatos">Contatos</a></li>
+                <li <?php if($path == 'home' || $path == '') echo 'class="active"'; ?> ><a href="/">Home</a></li>
+                <li <?php if($path == 'empresa') echo 'class="active"'; ?> ><a href="/empresa">Empresa</a></li>
+                <li <?php if($path == 'produtos') echo 'class="active"'; ?> ><a href="/produtos">Produtos</a></li>
+                <li <?php if($path == 'servicos') echo 'class="active"'; ?> ><a href="/servicos">Serviços</a></li>
+                <li <?php if($path == 'contatos') echo 'class="active"'; ?> ><a href="/contatos">Contatos</a></li>
 
             </ul>
         </div><!--/.nav-collapse -->
